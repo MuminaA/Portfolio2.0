@@ -1,15 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="/dist/output.css" rel="stylesheet">
-</head>
-<body>
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-</body>
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body
+    class="desktop:max-w-[1150px] laptop:max-w-[850px] mobile:max-w-[345px] mx-auto font-text-font"
+  >
+    <nav class="text-lg font-bold py-11">
+      <a href="#" class="flex justify-end items-center text-blush-pink"
+        >About Me</a
+      >
+    </nav>
+    <div
+      class="flex justify-between p-12 shadow-lg laptop:flex-row mobile:flex-col mobile:gap-6 mobile:items-center mb-24"
+    >
+      <div class="desktop:w-80 laptop:w-[17rem] mobile:w-52 flex items-center">
+        <img src="./assets/Me.jpeg" alt="" class="rounded-full" />
+      </div>
+      <div
+        class="flex flex-col justify-center desktop:gap-10 mobile:gap-6 desktop:max-w-[650px] laptop:max-w-[400px]"
+      >
+        <div>
+          <h1 class="desktop:text-5xl mobile:text-3xl font-bold">
+            Hi, Im Mumina |
+            <span class="underline underline-offset-4 decoration-blush-pink"
+              >Front-end Developer</span
+            >
+          </h1>
+        </div>
+        <div>
+          <ul class="flex gap-2 items-center">
+            <li>
+              <a href=""
+                ><i class="fa-brands fa-github fa-xl" style="color: #e392b6"></i
+              ></a>
+            </li>
+            <li>
+              <a href=""
+                ><i
+                  class="fa-brands fa-linkedin fa-xl"
+                  style="color: #e392b6"
+                ></i
+              ></a>
+            </li>
+            <li>
+              <a href=""
+                ><i
+                  class="fa-solid fa-envelope fa-xl"
+                  style="color: #e392b6"
+                ></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p class="desktop:text-2xl laptop:text-lg">
+            I am a life long learner who is passionate about creating engaging
+            and user-friendly websites. My goal is to bring ideas to life
+            through innovative design and technology.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-col items-center gap-10 mb-24">
+      <div>
+        <h2 class="font-bold laptop:text-3xl mobile:text-xl">MY SKILLS</h2>
+      </div>
+      <div class="flex justify-center gap-3">
+        <div
+          class="bg-black text-white p-2 laptop:w-28 flex justify-center laptop:text-xl mobile:text-base"
+        >
+          HTML
+        </div>
+        <div
+          class="bg-black text-white p-2 laptop:w-28 flex justify-center laptop:text-xl mobile:text-base"
+        >
+          CSS
+        </div>
+        <div
+          class="bg-black text-white p-2 laptop:w-28 flex justify-center laptop:text-xl mobile:text-base"
+        >
+          JavaScript
+        </div>
+        <div
+          class="bg-black text-white p-2 laptop:w-28 flex justify-center laptop:text-xl mobile:text-base"
+        >
+          TailwindCSS
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-col items-center gap-10 mb-24">
+      <div>
+        <h2 class="font-bold laptop:text-3xl mobile:text-xl">PROJECTS</h2>
+      </div>
+    </div>
+    <div class="flex justify-center items-center mb-24">
+      <div class="shadow-lg w-80 rounded-lg">
+        <div class="mb-4">
+          <img src="./assets/fylo.png" alt="" />
+        </div>
+        <div class="flex flex-col gap-4">
+          <div>
+            <h3>Fylo Landing Page</h3>
+          </div>
+          <div>
+            <p>
+              A responsive landing page deisgn challenge provided by
+              Frontmentor.io
+            </p>
+          </div>
+          <div class="flex gap-3">
+            <p>JavaScript</p>
+            <p>React</p>
+            <p>TailwindCSS</p>
+          </div>
+          <div class="flex gap-4">
+            <div>
+              <button>Live Site</button>
+            </div>
+            <div>
+              <button>GitHub</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div></div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/80aada6d6e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
