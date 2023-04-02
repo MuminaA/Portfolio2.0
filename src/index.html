@@ -10,11 +10,14 @@
   <body
     class="desktop:max-w-[1150px] laptop:max-w-[850px] mobile:max-w-[345px] mx-auto font-text-font"
   >
-    <nav class="text-lg font-bold py-11">
-      <a href="#" class="flex justify-end items-center text-blush-pink"
+    <!-- navbar -->
+    <nav class="flex justify-end items-center text-lg font-bold py-11">
+      <a href="#" class="  text-blush-pink"
         >About Me</a
       >
+      
     </nav>
+    <!-- Intro -->
     <div
       class="flex justify-between p-12 shadow-lg laptop:flex-row mobile:flex-col mobile:gap-6 mobile:items-center mb-24"
     >
@@ -66,6 +69,7 @@
         </div>
       </div>
     </div>
+    <!-- Projects title -->
     <div class="flex flex-col items-center gap-10 mb-24">
       <div>
         <h2 class="font-bold laptop:text-3xl mobile:text-xl">MY SKILLS</h2>
@@ -98,14 +102,17 @@
         <h2 class="font-bold laptop:text-3xl mobile:text-xl">PROJECTS</h2>
       </div>
     </div>
-    <div class="flex justify-center items-center mb-24">
-      <div class="shadow-lg w-80 rounded-lg">
-        <div class="mb-4">
+    <!-- Projects -->
+    <div class="flex laptop:flex-row mobile:flex-col justify-center gap-6 mb-24 items-center">
+      <div
+        class="flex flex-col justify-center gap-4 w-80 p-12 shadow-lg rounded-lg"
+      >
+        <div>
           <img src="./assets/fylo.png" alt="" />
         </div>
         <div class="flex flex-col gap-4">
           <div>
-            <h3>Fylo Landing Page</h3>
+            <h3 class="font-bold text-lg">Fylo Landing Page</h3>
           </div>
           <div>
             <p>
@@ -113,22 +120,55 @@
               Frontmentor.io
             </p>
           </div>
-          <div class="flex gap-3">
+          <div class="flex gap-3 text-blush-pink">
             <p>JavaScript</p>
             <p>React</p>
             <p>TailwindCSS</p>
           </div>
-          <div class="flex gap-4">
+          <div class="flex gap-2 items-center">
             <div>
-              <button>Live Site</button>
+              <a class="bg-black text-white rounded-full px-4 py-2 flex items-center hover:shadow-md hover:shadow-blush-pink duration-300" href="https://muminaa.github.io/fylo-landing-page-react/" target="_blank">Live Site</a>
             </div>
             <div>
-              <button>GitHub</button>
+              <a class="bg-black text-white rounded-full px-4 py-2 flex items-center hover:shadow-md hover:shadow-blush-pink duration-300" href="https://github.com/MuminaA/fylo-landing-page-react" target="_blank">GitHub</a>
             </div>
           </div>
         </div>
       </div>
-      <div></div>
+      <div
+        class="flex flex-col justify-center gap-4 w-80 p-12 shadow-lg rounded-lg"
+      >
+        <div>
+          <img src="./assets/fylo.png" alt="" />
+        </div>
+        <div class="flex flex-col gap-4">
+          <div>
+            <h3 class="font-bold text-lg">Name of site</h3>
+          </div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, suscipit!
+            </p>
+          </div>
+          <div class="flex gap-3 text-blush-pink">
+            <p>JavaScript</p>
+            <p>React</p>
+            <p>TailwindCSS</p>
+          </div>
+          <div class="flex gap-2">
+            <div>
+              <a class="bg-black text-white rounded-full px-4 py-2 flex items-center hover:shadow-md hover:shadow-blush-pink duration-300" href="#" target="_blank">Live Site</a>
+            </div>
+            <div>
+              <a class="bg-black text-white rounded-full px-4 py-2 flex items-center hover:shadow-md hover:shadow-blush-pink duration-300" href="#" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="w-full mb-10">
+    <div>
+      <p class="font-bold flex justify-center items-center mb-10">&copy; 2023 Mumina Abdi</p>
     </div>
     <script
       src="https://kit.fontawesome.com/80aada6d6e.js"
