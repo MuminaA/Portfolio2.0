@@ -19,6 +19,7 @@ module.exports = {
       laptop: "1024px",
       mobile: "375px",
     },
+    
   },
   plugins: [],
 };
